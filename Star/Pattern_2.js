@@ -14,4 +14,3 @@ for(r = 5; r  >= 1; r--){
     console.log("------")
 }
 
-// hellow

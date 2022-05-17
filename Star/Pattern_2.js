@@ -1,14 +1,12 @@
-// Print pattern 
-
-// *
-// **
-// ***
-// ****
 // *****
+// ****
+// ***
+// **
+// *
 
-for (r = 1; r <= 5; r++) {
+for(r = 5; r  >= 1; r--){
     console.log("r :" , r)
-    for (c = 1; c <= r; c++) {
+    for(c = 1; c <= r ; c++){
         console.log("c :" , c)
         document.write("*")
     }

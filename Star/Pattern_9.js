@@ -7,3 +7,7 @@
 //   *   *    
 //    * *      
 //     *
+
+for(let r = 5 ; r >= 1 ; r++){
+    document.write("*")
+}

@@ -39,7 +39,7 @@ for (let i = 1; i <= 5; i++) {
 }
 
 // bottom triangle
-for (let r = 1; r <= 5; r++) {
+for (let r = 2; r <= 5; r++) {
 
     for (let c = 1; c <= r; c++) {
         if (c === r) {

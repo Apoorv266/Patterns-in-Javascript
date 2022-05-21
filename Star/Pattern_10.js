@@ -24,16 +24,8 @@ for (let i = 1; i <= 5; i++) {
         document.write("*")
     }
 
-    for (let n = 2; n <= 5; n++) {
-        if (n === i) {
-            document.write("*")
-        }
-
-        else {
-            document.write("&nbsp;&nbsp;")
-        }
-    }
-
-
+   for (let j = 1; j < i ; j++){
+    document.write("*")
+   }
     document.write("<br>")
 }

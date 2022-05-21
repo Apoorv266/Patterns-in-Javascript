@@ -9,6 +9,7 @@
 //      *
 
 
+// top triangle
 for (let i = 1; i <= 5; i++) {
     for (let r = i; r <= 5; r++) {
         if (r === 5) {
@@ -36,6 +37,8 @@ for (let i = 1; i <= 5; i++) {
 
     document.write("<br>")
 }
+
+// bottom triangle
 for (let r = 1; r <= 5; r++) {
 
     for (let c = 1; c <= r; c++) {

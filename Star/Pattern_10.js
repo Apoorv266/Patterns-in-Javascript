@@ -31,18 +31,23 @@ for (let i = 1; i <= 5; i++) {
 }
 
 //lower triangle
-
 for (let p = 1; p <= 4; p++) {
     for (let m = 1; m <= p; m++) {
-        document.write("?")
+        document.write("&nbsp;&nbsp;")
     }
 
     for (let t = p ; t <= 4; t++){
         document.write("*")
     }
-    
+
     for (let z = p ; z <= 3; z++){
         document.write("*")
     }
+
+    for (let m = 1; m <= p; m++) {
+        document.write("&nbsp;&nbsp;")
+    }
     document.write("<br>")
 }
+
+

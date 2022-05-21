@@ -29,7 +29,7 @@ for (let i = 1; i <= 5 ; i++){
     document.write("<br>")
 }
 // lower triangle
-for (let m = 1 ; m <= 5; m++){
+for (let m = 2 ; m <= 5; m++){  // one row has to be reduced to started with 2
 
     for(let p = 1; p <= m ; p++){
         document.write("*")

@@ -29,4 +29,11 @@ for (let i = 1; i <= 5 ; i++){
     document.write("<br>")
 }
 
+for (let m = 1 ; m <= 5; m++){
 
+    for(let p = 1; p <= m ; p++){
+        document.write("*")
+    }
+    document.write("<br>")
+
+}

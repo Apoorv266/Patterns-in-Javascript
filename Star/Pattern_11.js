@@ -9,7 +9,7 @@
 // **********
 
 
-//
+// we have divided the triangle in two parts
 
 // upper triangle
 for (let i = 1; i <= 5 ; i++){

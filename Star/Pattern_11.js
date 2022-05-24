@@ -10,6 +10,7 @@
 
 
 // we have divided the triangle in two parts----one upper triangle and one lower triangle
+// those 2 triangles are further divided into variable ascending and descending triangles
 
 // upper triangle
 for (let i = 1; i <= 5 ; i++){

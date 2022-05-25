@@ -4,6 +4,8 @@
 // **
 // *
 
+// printing downwards triangle
+
 for(r = 5; r  >= 1; r--){
     console.log("r :" , r)
     for(c = 1; c <= r ; c++){
